@@ -29,10 +29,9 @@ Implements independent multi-template matching with IoU-NMS and recursive RANSAC
 
 [deliverables/01_success_easy/case_01/output_black-cat-collar.mp4](deliverables/01_success_easy/case_01/output_black-cat-collar.mp4)
 
-![Cat Collar Tracking](deliverables/01_success_easy/case_01/output_black-cat-collar.mp4)
+ <video src="https://github.com/ppitchaporn/CI7306-2/blob/main/deliverables/01_success_easy/case_01/output_black-cat-collar.mp4?raw=true" controls="controls" width="100%"></video> 
 
-
- <video src="deliverables/01_success_easy/case_01/output_black-cat-collar.mp4" controls width="100%"></video> 
+ <video src="https://github.com/ppitchaporn/CI7306-2/blob/main/deliverables/01_success_easy/case_01/output_black-cat-collar.mp4?raw=true" controls="controls" width="100%"></video>
 
    **Technique and parameters:**  ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; max_frame_side 960; temporal_smooth_window 8; animal_nonrigid true; nms_iou_threshold 0.45.
 
