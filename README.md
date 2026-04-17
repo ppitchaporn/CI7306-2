@@ -316,7 +316,7 @@ https://github.com/user-attachments/assets/5817c720-a5b5-4e88-9446-5efedcd8d921
 
    - **Why it fails:** Identical objects cause spatial ambiguity, but more critically, clear plastic generates dynamic specular reflections. As bottles move, shifting reflections severely alter local pixel gradients, breaking SIFT descriptor consistency.
 
-   - **Improvement:** Shift the template focus exclusively to the opaque, non-reflective blue caps. Apply draw_best_instance_only: false to enable tracking of all three independent caps simultaneously.
+   - **Improvement:** Shift the template focus exclusively to the opaque, non-reflective blue caps.
 
 #### 4. output_pancake-griddle.mp4
 
