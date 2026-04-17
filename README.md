@@ -56,8 +56,7 @@ https://github.com/user-attachments/assets/4078315b-560a-46f4-bf4b-f44c74a258ec
 [deliverables/01_success_easy/case_03/output_navara-rear-night.mp4](deliverables/01_success_easy/case_03/output_navara-rear-night.mp4)
 
 
-https://github.com/user-attachments/assets/7aa6196d-c944-489c-944d-32697fd27cf8
-
+https://github.com/user-attachments/assets/ec5dca8a-76ce-4549-a406-f4d42bb1d8e3
 
 
    **Technique and parameters:**  detector SIFT; ratio 0.78; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.32; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
