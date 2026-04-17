@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/de3a6c66-a447-48f3-bbf2-44d771ad876e
+
 # Challenge 2: Object Detection with Feature Point Matching
 
 6710422016 Pitchaporn Nimdum
@@ -29,9 +33,7 @@ Implements independent multi-template matching with IoU-NMS and recursive RANSAC
 
 [deliverables/01_success_easy/case_01/output_black-cat-collar.mp4](deliverables/01_success_easy/case_01/output_black-cat-collar.mp4)
 
- <video src="https://github.com/ppitchaporn/CI7306-2/blob/main/deliverables/01_success_easy/case_01/output_black-cat-collar.mp4?raw=true" controls="controls" width="100%"></video> 
-
- <video src="https://github.com/ppitchaporn/CI7306-2/blob/main/deliverables/01_success_easy/case_01/output_black-cat-collar.mp4?raw=true" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
    **Technique and parameters:**  ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; max_frame_side 960; temporal_smooth_window 8; animal_nonrigid true; nms_iou_threshold 0.45.
 
