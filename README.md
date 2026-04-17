@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/de3a6c66-a447-48f3-bbf2-44d771ad876e
-
 # Challenge 2: Object Detection with Feature Point Matching
 
 6710422016 Pitchaporn Nimdum
@@ -46,6 +42,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/01_success_easy/case_02/output_french-bulldog-floor.mp4](deliverables/01_success_easy/case_02/output_french-bulldog-floor.mp4)
 
+https://github.com/user-attachments/assets/4078315b-560a-46f4-bf4b-f44c74a258ec
+
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; max_frame_side 960; temporal_smooth_window 9; animal_nonrigid true.
 
    **Source:** Self-recorded
@@ -56,6 +54,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 3. output_navara-rear-night.mp4
 
 [deliverables/01_success_easy/case_03/output_navara-rear-night.mp4](deliverables/01_success_easy/case_03/output_navara-rear-night.mp4)
+
+https://github.com/user-attachments/assets/867a8088-c0e9-48ef-bd7e-843f71b3639b
 
    **Technique and parameters:**  detector SIFT; ratio 0.78; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.32; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
 
@@ -68,6 +68,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/01_success_easy/case_04/output_rose-bicolor.mp4](deliverables/01_success_easy/case_04/output_rose-bicolor.mp4)
 
+https://github.com/user-attachments/assets/aee9c6d3-fb3a-47bf-b850-ccfeb5919fa4
+
    **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
 
    **Source:** Self-recorded
@@ -78,6 +80,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 5. output_snow-trail-hiker.mp4
 
 [deliverables/01_success_easy/case_05/output_snow-trail-hiker.mp4](deliverables/01_success_easy/case_05/output_snow-trail-hiker.mp4)
+
+https://github.com/user-attachments/assets/d0041d03-2c00-43bf-a9a7-3a338e948858
 
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10; object_type human.
 
@@ -94,6 +98,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/02_success_difficult/case_01/output_atv-forest-trail.mp4](deliverables/02_success_difficult/case_01/output_atv-forest-trail.mp4)
 
+https://github.com/user-attachments/assets/855362b5-2f79-4bfa-b24e-930adf127ab7
+
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 12.
 
    **Source:** Self-recorded
@@ -106,6 +112,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 2. output_bolt-barcode-line.mp4
 
 [deliverables/02_success_difficult/case_02/output_bolt-barcode-line.mp4](deliverables/02_success_difficult/case_02/output_bolt-barcode-line.mp4)
+
+https://github.com/user-attachments/assets/c909407b-dd8f-403a-b297-083adf1361ef
 
    **Technique and parameters:**  detector SIFT; ratio 0.72; min_matches 16; ransac_reproj_threshold 8.0; min_inlier_ratio 0.38; clahe_enabled true; process_scale 0.9375; max_frame_side 960.
 
@@ -120,6 +128,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/02_success_difficult/case_03/output_pork-belly-grill.mp4](deliverables/02_success_difficult/case_03/output_pork-belly-grill.mp4)
 
+https://github.com/user-attachments/assets/48e86ddf-2958-47e4-bf7a-09152820822a
+
    **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
 
    **Source:** Self-recorded
@@ -133,6 +143,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/02_success_difficult/case_04/output_small-dog-blep.mp4](deliverables/02_success_difficult/case_04/output_small-dog-blep.mp4)
 
+https://github.com/user-attachments/assets/495b5220-48cf-4278-9b0f-3bc9eaf57faa
+
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; animal_nonrigid true; max_frame_side 960; temporal_smooth_window 9.
 
    **Source:** Self-recorded
@@ -145,6 +157,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 5. output_trail-runner-vest.mp4
 
 [deliverables/02_success_difficult/case_05/output_trail-runner-vest.mp4](deliverables/02_success_difficult/case_05/output_trail-runner-vest.mp4)
+
+https://github.com/user-attachments/assets/ee993b21-bbf9-4e79-b1d3-cafd1012a33f
 
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 11.
 
@@ -163,6 +177,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/03_failed_expected/case_01/output_heart-pendant-chain.mp4](deliverables/03_failed_expected/case_01/output_heart-pendant-chain.mp4)
 
+https://github.com/user-attachments/assets/49b82a89-fbdb-4346-98c8-034a14bbd486
+
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 11; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; use_scaled_matching false; process_scale 1.0.
 
    **Source:** Self-recorded
@@ -178,6 +194,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/03_failed_expected/case_02/output_oven-flame-arch.mp4](deliverables/03_failed_expected/case_02/output_oven-flame-arch.mp4)
 
+https://github.com/user-attachments/assets/b88ba39d-e3e7-41e0-abed-edf2929fbd1f
+
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 15.0; min_inlier_ratio 0.28; clahe_enabled true; independent_multi_template_matching false; temporal_smooth_window 10.
 
    **Source:** Self-recorded
@@ -192,6 +210,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 3. output_airfryer-purple-food.mp4
 
 [deliverables/03_failed_expected/case_03/output_airfryer-purple-food.mp4](deliverables/03_failed_expected/case_03/output_airfryer-purple-food.mp4)
+
+https://github.com/user-attachments/assets/4e55bce7-de88-4cf7-ae70-6513ea62ac36
 
    **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
 
@@ -210,6 +230,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/03_failed_expected/case_04/output_bike-white-pavement.mp4](deliverables/03_failed_expected/case_04/output_bike-white-pavement.mp4)
 
+https://github.com/user-attachments/assets/0f66de6a-bc93-400d-8ef5-90130aac92d3
+
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; use_scaled_matching false; nms_iou_threshold 0.42.
 
    **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4)
@@ -225,6 +247,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 5. output_produce-conveyor-blur.mp4
 
 [deliverables/03_failed_expected/case_05/output_produce-conveyor-blur.mp4](deliverables/03_failed_expected/case_05/output_produce-conveyor-blur.mp4)
+
+https://github.com/user-attachments/assets/0b74e05e-6442-4ef9-95ac-7b4ddba8fdb6
 
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
 
@@ -243,6 +267,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/04_failed_unexpected/case_01/output_bicycle-wheel-crop.mp4](deliverables/04_failed_unexpected/case_01/output_bicycle-wheel-crop.mp4)
 
+https://github.com/user-attachments/assets/5a87aa59-8ea2-455f-af5a-c95390970af6
+
    **Technique and parameters:**  detector SIFT; ratio 0.76; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
 
    **Source:** Self-recorded
@@ -257,6 +283,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 2. output_classroom-desk.mp4
 
 [deliverables/04_failed_unexpected/case_02/output_classroom-desk.mp4](deliverables/04_failed_unexpected/case_02/output_classroom-desk.mp4)
+
+https://github.com/user-attachments/assets/a9509aa5-ccd8-4b7c-a3ec-43c4a4daaf16
 
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960.
 
@@ -273,6 +301,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/04_failed_unexpected/case_03/output_water-bottle-cap.mp4](deliverables/04_failed_unexpected/case_03/output_water-bottle-cap.mp4)
 
+https://github.com/user-attachments/assets/2a90be7d-74c4-4862-baff-e66728f2a400
+
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
 
    **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4)
@@ -288,6 +318,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 [deliverables/04_failed_unexpected/case_04/output_pancake-griddle.mp4](deliverables/04_failed_unexpected/case_04/output_pancake-griddle.mp4)
 
+https://github.com/user-attachments/assets/183cb52b-9444-4f0d-888d-3903da638945
+
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; preprocess_gaussian_sigma 1.0; max_frame_side 960.
 
    **Source:** Self-recorded
@@ -302,6 +334,8 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 #### 5. output_site-hard-hat.mp4
 
 [deliverables/04_failed_unexpected/case_05/output_site-hard-hat.mp4](deliverables/04_failed_unexpected/case_05/output_site-hard-hat.mp4)
+
+https://github.com/user-attachments/assets/957018e9-222b-49e4-bfea-33b26f66877a
 
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
 
