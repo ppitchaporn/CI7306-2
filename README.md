@@ -55,7 +55,10 @@ https://github.com/user-attachments/assets/4078315b-560a-46f4-bf4b-f44c74a258ec
 
 [deliverables/01_success_easy/case_03/output_navara-rear-night.mp4](deliverables/01_success_easy/case_03/output_navara-rear-night.mp4)
 
-https://github.com/user-attachments/assets/867a8088-c0e9-48ef-bd7e-843f71b3639b
+
+https://github.com/user-attachments/assets/7aa6196d-c944-489c-944d-32697fd27cf8
+
+
 
    **Technique and parameters:**  detector SIFT; ratio 0.78; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.32; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
 
@@ -211,7 +214,7 @@ https://github.com/user-attachments/assets/b88ba39d-e3e7-41e0-abed-edf2929fbd1f
 
 [deliverables/03_failed_expected/case_03/output_airfryer-purple-food.mp4](deliverables/03_failed_expected/case_03/output_airfryer-purple-food.mp4)
 
-https://github.com/user-attachments/assets/4e55bce7-de88-4cf7-ae70-6513ea62ac36
+https://github.com/user-attachments/assets/471335f9-1eca-4391-92e7-7f8495e5efec
 
    **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
 
@@ -230,7 +233,9 @@ https://github.com/user-attachments/assets/4e55bce7-de88-4cf7-ae70-6513ea62ac36
 
 [deliverables/03_failed_expected/case_04/output_bike-white-pavement.mp4](deliverables/03_failed_expected/case_04/output_bike-white-pavement.mp4)
 
-https://github.com/user-attachments/assets/0f66de6a-bc93-400d-8ef5-90130aac92d3
+
+https://github.com/user-attachments/assets/a130a318-fed3-4f70-b1e3-584cb2a28d2b
+
 
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; use_scaled_matching false; nms_iou_threshold 0.42.
 
@@ -301,7 +306,9 @@ https://github.com/user-attachments/assets/a9509aa5-ccd8-4b7c-a3ec-43c4a4daaf16
 
 [deliverables/04_failed_unexpected/case_03/output_water-bottle-cap.mp4](deliverables/04_failed_unexpected/case_03/output_water-bottle-cap.mp4)
 
-https://github.com/user-attachments/assets/2a90be7d-74c4-4862-baff-e66728f2a400
+
+https://github.com/user-attachments/assets/186ae3a9-a2e6-42cc-9810-9e0c59453315
+
 
    **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
 
@@ -318,7 +325,9 @@ https://github.com/user-attachments/assets/2a90be7d-74c4-4862-baff-e66728f2a400
 
 [deliverables/04_failed_unexpected/case_04/output_pancake-griddle.mp4](deliverables/04_failed_unexpected/case_04/output_pancake-griddle.mp4)
 
-https://github.com/user-attachments/assets/183cb52b-9444-4f0d-888d-3903da638945
+
+https://github.com/user-attachments/assets/228b29b9-d4ab-4a4a-8ab2-1832424b0203
+
 
    **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; preprocess_gaussian_sigma 1.0; max_frame_side 960.
 
