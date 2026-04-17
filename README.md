@@ -31,12 +31,12 @@ Implements independent multi-template matching with IoU-NMS and recursive RANSAC
 
 https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
-   **Technique and parameters:**  ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; max_frame_side 960; temporal_smooth_window 8; animal_nonrigid true; nms_iou_threshold 0.45.
+   - **Technique and parameters:**  ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; max_frame_side 960; temporal_smooth_window 8; animal_nonrigid true; nms_iou_threshold 0.45.
 
-   **Source:** Self-recorded
-   **Objects target:** Black cat face
-   **Object type:** Animal
-   **Caption:** Close-up black cat looking up: green eyes, white whiskers, patterned collar with bell.
+   - **Source:** Self-recorded
+   - **Objects target:** Black cat face
+   - **Object type:** Animal
+   - **Caption:** Close-up black cat looking up: green eyes, white whiskers, patterned collar with bell.
 
 #### 2. output_french-bulldog-floor.mp4
 
@@ -44,12 +44,12 @@ https://github.com/user-attachments/assets/b29f97e9-a424-493a-af2d-ff47f29e9e5f
 
 https://github.com/user-attachments/assets/4078315b-560a-46f4-bf4b-f44c74a258ec
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; max_frame_side 960; temporal_smooth_window 9; animal_nonrigid true.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; max_frame_side 960; temporal_smooth_window 9; animal_nonrigid true.
 
-   **Source:** Self-recorded
-   **Objects target:** French bulldog sitting dark floor
-   **Object type:** Animal
-   **Caption:** French Bulldog slumped sitting, bat ears, white neck patch, indoor brown floor.
+   - **Source:** Self-recorded
+   - **Objects target:** French bulldog sitting dark floor
+   - **Object type:** Animal
+   - **Caption:** French Bulldog slumped sitting, bat ears, white neck patch, indoor brown floor.
 
 #### 3. output_navara-rear-night.mp4
 
@@ -59,12 +59,12 @@ https://github.com/user-attachments/assets/4078315b-560a-46f4-bf4b-f44c74a258ec
 https://github.com/user-attachments/assets/ec5dca8a-76ce-4549-a406-f4d42bb1d8e3
 
 
-   **Technique and parameters:**  detector SIFT; ratio 0.78; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.32; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
+   - **Technique and parameters:**  detector SIFT; ratio 0.78; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.32; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
 
-   **Source:** Self-recorded
-   **Objects target:** Silver pickup truck
-   **Object type:** scale_texture
-   **Caption:** Rear view of a silver pickup truck recorded under low-light nighttime conditions.
+   - **Source:** Self-recorded
+   - **Objects target:** Silver pickup truck
+   - **Object type:** scale_texture
+   - **Caption:** Rear view of a silver pickup truck recorded under low-light nighttime conditions.
 
 #### 4. output_rose-bicolor.mp4
 
@@ -72,12 +72,12 @@ https://github.com/user-attachments/assets/ec5dca8a-76ce-4549-a406-f4d42bb1d8e3
 
 https://github.com/user-attachments/assets/aee9c6d3-fb3a-47bf-b850-ccfeb5919fa4
 
-   **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
+   - **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10.
 
-   **Source:** Self-recorded
-   **Objects target:** Pink-white rose bloom
-   **Object type:** scale_texture
-   **Caption:** Close-up of a mottled pink-white rose against blurred neutral pavement.
+   - **Source:** Self-recorded
+   - **Objects target:** Pink-white rose bloom
+   - **Object type:** scale_texture
+   - **Caption:** Close-up of a mottled pink-white rose against blurred neutral pavement.
 
 #### 5. output_snow-trail-hiker.mp4
 
@@ -85,12 +85,12 @@ https://github.com/user-attachments/assets/aee9c6d3-fb3a-47bf-b850-ccfeb5919fa4
 
 https://github.com/user-attachments/assets/d0041d03-2c00-43bf-a9a7-3a338e948858
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10; object_type human.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 10; object_type human.
 
-   **Source:** Self-recorded
-   **Objects target:** Person
-   **Object type:** human
-   **Caption:** Full-length figure on snow: dark quilted jacket, orange pack, grey boots, trees behind.
+   - **Source:** Self-recorded
+   - **Objects target:** Person
+   - **Object type:** human
+   - **Caption:** Full-length figure on snow: dark quilted jacket, orange pack, grey boots, trees behind.
 
 ---
 
@@ -102,14 +102,14 @@ https://github.com/user-attachments/assets/d0041d03-2c00-43bf-a9a7-3a338e948858
 
 https://github.com/user-attachments/assets/855362b5-2f79-4bfa-b24e-930adf127ab7
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 12.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 12.
 
-   **Source:** Self-recorded
-   **Objects target:** Rider and ATV
-   **Object type:** human
-   **Caption:** Rear view of a person in a yellow helmet driving a ATV on a wooded trail.
+   - **Source:** Self-recorded
+   - **Objects target:** Rider and ATV
+   - **Object type:** human
+   - **Caption:** Rear view of a person in a yellow helmet driving a ATV on a wooded trail.
 
-   **Why difficult:** Continuous viewpoint shifts alter the scale and geometry of the target, degrading descriptor matching. Furthermore, complex background clutter (foliage) and partial occlusions reduce the number of valid keypoints, weakening the support set required for stable RANSAC homography estimation.
+   - **Why difficult:** Continuous viewpoint shifts alter the scale and geometry of the target, degrading descriptor matching. Furthermore, complex background clutter (foliage) and partial occlusions reduce the number of valid keypoints, weakening the support set required for stable RANSAC homography estimation.
 
 #### 2. output_bolt-barcode-line.mp4
 
@@ -117,14 +117,14 @@ https://github.com/user-attachments/assets/855362b5-2f79-4bfa-b24e-930adf127ab7
 
 https://github.com/user-attachments/assets/c909407b-dd8f-403a-b297-083adf1361ef
 
-   **Technique and parameters:**  detector SIFT; ratio 0.72; min_matches 16; ransac_reproj_threshold 8.0; min_inlier_ratio 0.38; clahe_enabled true; process_scale 0.9375; max_frame_side 960.
+   - **Technique and parameters:**  detector SIFT; ratio 0.72; min_matches 16; ransac_reproj_threshold 8.0; min_inlier_ratio 0.38; clahe_enabled true; process_scale 0.9375; max_frame_side 960.
 
-   **Source:** Self-recorded
-   **Objects target:** Bolt
-   **Object type:** Repetitive pattern
-   **Caption:** Threaded metal fastener and white barcode label on a moving conveyor.
+   - **Source:** Self-recorded
+   - **Objects target:** Bolt
+   - **Object type:** Repetitive pattern
+   - **Caption:** Threaded metal fastener and white barcode label on a moving conveyor.
 
-   **Why difficult:** Repetitive barcode geometry generates ambiguous feature descriptors, causing a high rejection rate during Lowe's ratio test. Conveyor motion reduces keypoint gradient contrast, leaving frames with insufficient inliers to reliably compute the perspective homography matrix
+   - **Why difficult:** Repetitive barcode geometry generates ambiguous feature descriptors, causing a high rejection rate during Lowe's ratio test. Conveyor motion reduces keypoint gradient contrast, leaving frames with insufficient inliers to reliably compute the perspective homography matrix
 
 #### 3. output_pork-belly-grill.mp4
 
@@ -132,14 +132,14 @@ https://github.com/user-attachments/assets/c909407b-dd8f-403a-b297-083adf1361ef
 
 https://github.com/user-attachments/assets/48e86ddf-2958-47e4-bf7a-09152820822a
 
-   **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
+   - **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
 
-   **Source:** Self-recorded
-   **Objects target:** Raw pork belly strip on circular grate
-   **Object type:** scale_texture
-   **Caption:** Long strip of layered pork belly on a round metal grill or drain grate.
+   - **Source:** Self-recorded
+   - **Objects target:** Raw pork belly strip on circular grate
+   - **Object type:** scale_texture
+   - **Caption:** Long strip of layered pork belly on a round metal grill or drain grate.
 
-   **Why difficult:** Glossy meat and grill specularities change appearance frame to frame; scale_texture scenes need strong inliers to hold a planar homography.
+   - **Why difficult:** Glossy meat and grill specularities change appearance frame to frame; scale_texture scenes need strong inliers to hold a planar homography.
 
 #### 4. output_small-dog-blep.mp4
 
@@ -147,14 +147,14 @@ https://github.com/user-attachments/assets/48e86ddf-2958-47e4-bf7a-09152820822a
 
 https://github.com/user-attachments/assets/495b5220-48cf-4278-9b0f-3bc9eaf57faa
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; animal_nonrigid true; max_frame_side 960; temporal_smooth_window 9.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.31; clahe_enabled true; animal_nonrigid true; max_frame_side 960; temporal_smooth_window 9.
 
-   **Source:** Self-recorded
-   **Objects target:** Small dog with bee cap
-   **Object type:** Animal
-   **Caption:** Frontal close-up of a small dog in a bee cap, showing out-of-plane head rotations.
+   - **Source:** Self-recorded
+   - **Objects target:** Small dog with bee cap
+   - **Object type:** Animal
+   - **Caption:** Frontal close-up of a small dog in a bee cap, showing out-of-plane head rotations.
 
-   **Why difficult:** Non-rigid animal deformation and 3D head tilts violate the planar surface assumption required for 2D perspective homography.
+   - **Why difficult:** Non-rigid animal deformation and 3D head tilts violate the planar surface assumption required for 2D perspective homography.
 
 #### 5. output_trail-runner-vest.mp4
 
@@ -162,14 +162,14 @@ https://github.com/user-attachments/assets/495b5220-48cf-4278-9b0f-3bc9eaf57faa
 
 https://github.com/user-attachments/assets/ee993b21-bbf9-4e79-b1d3-cafd1012a33f
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 11.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960; temporal_smooth_window 11.
 
-   **Source:** Self-recorded
-   **Objects target:** Runner
-   **Object type:** human
-   **Caption:** Trail runner wearing a hydration vest, moving quickly past foreground bushes.
+   - **Source:** Self-recorded
+   - **Objects target:** Runner
+   - **Object type:** human
+   - **Caption:** Trail runner wearing a hydration vest, moving quickly past foreground bushes.
 
-   **Why difficult:** Fast subject motion combined with partial occlusion by foliage physically blocks keypoints, driving the active match count below the RANSAC min_inlier_ratio threshold.
+   - **Why difficult:** Fast subject motion combined with partial occlusion by foliage physically blocks keypoints, driving the active match count below the RANSAC min_inlier_ratio threshold.
 
 ---
 
@@ -181,16 +181,16 @@ https://github.com/user-attachments/assets/ee993b21-bbf9-4e79-b1d3-cafd1012a33f
 
 https://github.com/user-attachments/assets/49b82a89-fbdb-4346-98c8-034a14bbd486
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 11; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; use_scaled_matching false; process_scale 1.0.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 11; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; use_scaled_matching false; process_scale 1.0.
 
-   **Source:** Self-recorded
-   **Objects target:** Silver ball chain and heart pendant
-   **Object type:** transparent_reflection
-   **Caption:** Jewelry close-up: bead chain and small green heart charm on skin-toned background.
+   - **Source:** Self-recorded
+   - **Objects target:** Silver ball chain and heart pendant
+   - **Object type:** transparent_reflection
+   - **Caption:** Jewelry close-up: bead chain and small green heart charm on skin-toned background.
 
-   **Why it fails:** Specular chain and skin reflections change highlights; transparent_reflection breaks stable SIFT/AKAZE correspondences most frames.
+   - **Why it fails:** Specular chain and skin reflections change highlights; transparent_reflection breaks stable SIFT/AKAZE correspondences most frames.
 
-   **Improvement:**  Tighter crops on matte, non-specular links; stronger clahe / blur tuning; more templates under templates_augmented for glare states; relax min_inlier_ratio slightly only if false negatives dominate.
+   - **Improvement:**  Tighter crops on matte, non-specular links; stronger clahe / blur tuning; more templates under templates_augmented for glare states; relax min_inlier_ratio slightly only if false negatives dominate.
 
 #### 2. output_oven-flame-arch.mp4
 
@@ -198,16 +198,16 @@ https://github.com/user-attachments/assets/49b82a89-fbdb-4346-98c8-034a14bbd486
 
 https://github.com/user-attachments/assets/b88ba39d-e3e7-41e0-abed-edf2929fbd1f
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 15.0; min_inlier_ratio 0.28; clahe_enabled true; independent_multi_template_matching false; temporal_smooth_window 10.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 15.0; min_inlier_ratio 0.28; clahe_enabled true; independent_multi_template_matching false; temporal_smooth_window 10.
 
-   **Source:** Self-recorded
-   **Objects target:** Vertical flame in pizza oven
-   **Object type:** flame
-   **Caption:** Bright, flickering flame under a dark arch with an orange glowing interior.
+   - **Source:** Self-recorded
+   - **Objects target:** Vertical flame in pizza oven
+   - **Object type:** flame
+   - **Caption:** Bright, flickering flame under a dark arch with an orange glowing interior.
 
-   **Why it fails:** Flames are highly dynamic, non-rigid, and lack persistent textures. This fundamentally violates the rigid, planar surface assumption required to compute a valid 2D perspective transform.
+   - **Why it fails:** Flames are highly dynamic, non-rigid, and lack persistent textures. This fundamentally violates the rigid, planar surface assumption required to compute a valid 2D perspective transform.
 
-   **Improvement:**  Part-based templates_augmented with anchor on static oven mouth; higher ransac_reproj_threshold only with static anchors; temporal smoothing cannot help without any successful frames.
+   - **Improvement:**  Part-based templates_augmented with anchor on static oven mouth; higher ransac_reproj_threshold only with static anchors; temporal smoothing cannot help without any successful frames.
 
 #### 3. output_airfryer-purple-food.mp4
 
@@ -215,16 +215,16 @@ https://github.com/user-attachments/assets/b88ba39d-e3e7-41e0-abed-edf2929fbd1f
 
 https://github.com/user-attachments/assets/cbd6a027-facd-4761-bec9-26fe2da9131d
 
-   **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
+   - **Technique and parameters:**  detector SIFT; ratio 0.75; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
 
-   **Source:** Self-recorded
-   **Objects target:** Silver Fork
-   **Object type:** scale_texture
-   **Caption:** Silver fork piercing textured food on a white plate inside a dark air fryer.
+   - **Source:** Self-recorded
+   - **Objects target:** Silver Fork
+   - **Object type:** scale_texture
+   - **Caption:** Silver fork piercing textured food on a white plate inside a dark air fryer.
 
-   **Why it fails:** The uniform texture of the silver fork yields few distinct keypoints, causing the algorithm to inappropriately anchor to the highly textured food background. This leads to high template diversity rather than a simple low detection rate.
+   - **Why it fails:** The uniform texture of the silver fork yields few distinct keypoints, causing the algorithm to inappropriately anchor to the highly textured food background. This leads to high template diversity rather than a simple low detection rate.
 
-   **Improvement:** Crop templates strictly to the fork's structural boundaries to exclude the food texture. Consolidate to a single pose to enforce consistency.
+   - **Improvement:** Crop templates strictly to the fork's structural boundaries to exclude the food texture. Consolidate to a single pose to enforce consistency.
 
 ---
 
@@ -234,17 +234,17 @@ https://github.com/user-attachments/assets/cbd6a027-facd-4761-bec9-26fe2da9131d
 
 https://github.com/user-attachments/assets/e5966427-37ad-4aca-8922-6a3eafc44c70
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; use_scaled_matching false; nms_iou_threshold 0.42.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; use_scaled_matching false; nms_iou_threshold 0.42.
 
-   **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4)
+   - **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/person-bicycle-car-detection.mp4)
 
-   **Objects target:** Person, bicycle, car
-   **Object type:** human
-   **Caption:** High-angle view of a car, human, and white bicycle against light grey pavement.
+   - **Objects target:** Person, bicycle, car
+   - **Object type:** human
+   - **Caption:** High-angle view of a car, human, and white bicycle against light grey pavement.
 
-   **Why it fails:** Low pixel intensity variance between the white bike and grey pavement impedes edge gradient extraction, severely limiting scale-space extrema detection (DoG). System attempts to compensate by aggressively cycling through templates, yielding poor temporal continuity.
+   - **Why it fails:** Low pixel intensity variance between the white bike and grey pavement impedes edge gradient extraction, severely limiting scale-space extrema detection (DoG). System attempts to compensate by aggressively cycling through templates, yielding poor temporal continuity.
 
-   **Improvement:** Tighten templates to a single dominant pose to eliminate false tier drift. Optimize CLAHE parameters to force stronger local contrast before descriptor extraction.
+   - **Improvement:** Tighten templates to a single dominant pose to eliminate false tier drift. Optimize CLAHE parameters to force stronger local contrast before descriptor extraction.
 
 #### 5. output_produce-conveyor-blur.mp4
 
@@ -252,16 +252,16 @@ https://github.com/user-attachments/assets/e5966427-37ad-4aca-8922-6a3eafc44c70
 
 https://github.com/user-attachments/assets/0b74e05e-6442-4ef9-95ac-7b4ddba8fdb6
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
 
-   **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/fruit-and-vegetable-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/fruit-and-vegetable-detection.mp4)
-   **Objects target:** Fruit and vegetable
-   **Object type:** multi_instance
-   **Caption:** Assorted fruits and vegetables moving rapidly along a conveyor belt.
+   - **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/fruit-and-vegetable-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/fruit-and-vegetable-detection.mp4)
+   - **Objects target:** Fruit and vegetable
+   - **Object type:** multi_instance
+   - **Caption:** Assorted fruits and vegetables moving rapidly along a conveyor belt.
 
-   **Why it fails:** Severe motion blur degrades spatial frequency, smoothing out the gradients necessary for SIFT keypoint localization. 
+   - **Why it fails:** Severe motion blur degrades spatial frequency, smoothing out the gradients necessary for SIFT keypoint localization. 
 
-   **Improvement:** Lower the min_matches requirement to accommodate blurred frames, and decrease process_scale to artificially merge pixel noise into stronger low-frequency gradients.
+   - **Improvement:** Lower the min_matches requirement to accommodate blurred frames, and decrease process_scale to artificially merge pixel noise into stronger low-frequency gradients.
 
 ### 04_failed_unexpected
 
@@ -271,16 +271,16 @@ https://github.com/user-attachments/assets/0b74e05e-6442-4ef9-95ac-7b4ddba8fdb6
 
 https://github.com/user-attachments/assets/5a87aa59-8ea2-455f-af5a-c95390970af6
 
-   **Technique and parameters:**  detector SIFT; ratio 0.76; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
+   - **Technique and parameters:**  detector SIFT; ratio 0.76; min_matches 15; ransac_reproj_threshold 12.0; min_inlier_ratio 0.33; clahe_enabled true; max_frame_side 960.
 
-   **Source:** Self-recorded
-   **Objects target:** Yellow bicycle
-   **Object type:** scale_texture
-   **Caption:** People riding bicycles on a paved road adjacent to foliage.
+   - **Source:** Self-recorded
+   - **Objects target:** Yellow bicycle
+   - **Object type:** scale_texture
+   - **Caption:** People riding bicycles on a paved road adjacent to foliage.
 
-   **Why it fails:** While frames contain high clarity (Laplacian variance), the repeating radial geometry of the bicycle spokes creates descriptor redundancy. This mathematical ambiguity inherently fails the Lowe ratio test.
+   - **Why it fails:** While frames contain high clarity (Laplacian variance), the repeating radial geometry of the bicycle spokes creates descriptor redundancy. This mathematical ambiguity inherently fails the Lowe ratio test.
 
-   **Improvement:**  Crop to less motion-blurred spokes; add a template on a distinct tread or label patch; enable scaled matching if full-res noise dominates.
+   - **Improvement:**  Crop to less motion-blurred spokes; add a template on a distinct tread or label patch; enable scaled matching if full-res noise dominates.
 
 #### 2. output_classroom-desk.mp4
 
@@ -288,16 +288,16 @@ https://github.com/user-attachments/assets/5a87aa59-8ea2-455f-af5a-c95390970af6
 
 https://github.com/user-attachments/assets/a9509aa5-ccd8-4b7c-a3ec-43c4a4daaf16
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.35; clahe_enabled true; max_frame_side 960.
 
-   **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/classroom.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/classroom.mp4)
-   **Objects target:** Seated/Standup person
-   **Object type:** human
-   **Caption:** Four young men dressed in similar tones behind a white table, with chest areas occluded.
+   - **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/classroom.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/classroom.mp4)
+   - **Objects target:** Seated/Standup person
+   - **Object type:** human
+   - **Caption:** Four young men dressed in similar tones behind a white table, with chest areas occluded.
 
-   **Why it fails:**  Multiple subjects wearing identically colored clothing create cross-instance feature matching. RANSAC mistakenly combines inliers from different people into a single model, causing severe bounding box instability and jumping.
+   - **Why it fails:**  Multiple subjects wearing identically colored clothing create cross-instance feature matching. RANSAC mistakenly combines inliers from different people into a single model, causing severe bounding box instability and jumping.
 
-   **Improvement:** Allow recursive RANSAC for multiple instances.
+   - **Improvement:** Allow recursive RANSAC for multiple instances.
 
 #### 3. output_water-bottle-cap.mp4
 
@@ -307,16 +307,16 @@ https://github.com/user-attachments/assets/a9509aa5-ccd8-4b7c-a3ec-43c4a4daaf16
 https://github.com/user-attachments/assets/5817c720-a5b5-4e88-9446-5efedcd8d921
 
 
-   **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
+   - **Technique and parameters:** dual_consensus(SIFT+AKAZE); ratio 0.82; min_matches 20; ransac_reproj_threshold 12.0; min_inlier_ratio 0.4; clahe_enabled true; use_scaled_matching false; max_frame_side 960.
 
-   **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4)
-   **Objects target:** 3 clear plastic bottles with blue screw caps
-   **Object type:** multi_instance
-   **Caption:** Three clear water bottles with dark blue caps being picked up and moved interactively.
+   - **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/bottle-detection.mp4)
+   - **Objects target:** 3 clear plastic bottles with blue screw caps
+   - **Object type:** multi_instance
+   - **Caption:** Three clear water bottles with dark blue caps being picked up and moved interactively.
 
-   **Why it fails:** Identical objects cause spatial ambiguity, but more critically, clear plastic generates dynamic specular reflections. As bottles move, shifting reflections severely alter local pixel gradients, breaking SIFT descriptor consistency.
+   - **Why it fails:** Identical objects cause spatial ambiguity, but more critically, clear plastic generates dynamic specular reflections. As bottles move, shifting reflections severely alter local pixel gradients, breaking SIFT descriptor consistency.
 
-   **Improvement:** Shift the template focus exclusively to the opaque, non-reflective blue caps. Apply draw_best_instance_only: false to enable tracking of all three independent caps simultaneously.
+   - **Improvement:** Shift the template focus exclusively to the opaque, non-reflective blue caps. Apply draw_best_instance_only: false to enable tracking of all three independent caps simultaneously.
 
 #### 4. output_pancake-griddle.mp4
 
@@ -326,16 +326,16 @@ https://github.com/user-attachments/assets/5817c720-a5b5-4e88-9446-5efedcd8d921
 https://github.com/user-attachments/assets/3fa91fe3-7fb3-45f9-b3a3-e183928d2282
 
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; preprocess_gaussian_sigma 1.0; max_frame_side 960.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 12; ransac_reproj_threshold 12.0; min_inlier_ratio 0.3; clahe_enabled true; preprocess_gaussian_sigma 1.0; max_frame_side 960.
 
-   **Source:** Self-recorded
-   **Objects target:** Pancake
-   **Object type:** transparent_reflection
-   **Caption:** Close-up of a golden-brown pancake cooking on a flat black cooking surface.
+   - **Source:** Self-recorded
+   - **Objects target:** Pancake
+   - **Object type:** transparent_reflection
+   - **Caption:** Close-up of a golden-brown pancake cooking on a flat black cooking surface.
 
-   **Why it fails:** Low detection_rate with occasional sharp frames (transparent_reflection on oil sheen) pushes the heuristic toward unexpected failure vs. purely low-clarity expected fail.
+   - **Why it fails:** Low detection_rate with occasional sharp frames (transparent_reflection on oil sheen) pushes the heuristic toward unexpected failure vs. purely low-clarity expected fail.
 
-   **Improvement:**  Mask glare in templates; add templates for dry vs. glossy griddle; slightly lower min_matches for this stem via stem_overrides.
+   - **Improvement:**  Mask glare in templates; add templates for dry vs. glossy griddle; slightly lower min_matches for this stem via stem_overrides.
 
 #### 5. output_site-hard-hat.mp4
 
@@ -343,13 +343,13 @@ https://github.com/user-attachments/assets/3fa91fe3-7fb3-45f9-b3a3-e183928d2282
 
 https://github.com/user-attachments/assets/fb3d5f1a-91ab-4103-b11a-c35ad5b1f40c
 
-   **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
+   - **Technique and parameters:** dual_consensus(SIFT+SIFT); ratio 0.82; min_matches 14; ransac_reproj_threshold 12.0; min_inlier_ratio 0.34; clahe_enabled true; max_frame_side 960.
 
-   **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/worker-zone-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/worker-zone-detection.mp4)
-   **Objects target:** Worker
-   **Object type:** human
-   **Caption:** Multiple workers wearing glossy yellow safety helmets walking back and forth.
+   - **Source:** [https://github.com/intel-iot-devkit/sample-videos/blob/master/worker-zone-detection.mp4](https://github.com/intel-iot-devkit/sample-videos/blob/master/worker-zone-detection.mp4)
+   - **Objects target:** Worker
+   - **Object type:** human
+   - **Caption:** Multiple workers wearing glossy yellow safety helmets walking back and forth.
 
-   **Why it fails:** The glossy surface of the safety helmets creates specular highlights that shift independently of the object's physical movement. This distorts the underlying gradient orientations, causing valid feature points to fail descriptor matching.
+   - **Why it fails:** The glossy surface of the safety helmets creates specular highlights that shift independently of the object's physical movement. This distorts the underlying gradient orientations, causing valid feature points to fail descriptor matching.
 
-   **Improvement:** Preprocess frames with stricter CLAHE parameters to suppress intense specular lighting , or capture templates prioritizing matte surfaces rather than the highly reflective helmets.
+   - **Improvement:** Preprocess frames with stricter CLAHE parameters to suppress intense specular lighting , or capture templates prioritizing matte surfaces rather than the highly reflective helmets.
